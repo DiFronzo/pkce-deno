@@ -2,6 +2,10 @@
   <img src="https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/logo/Deno_PKCE.png" width="255">
 </p>
 
+[![Deno version](https://raw.githubusercontent.com/DiFronzo/pkce-deno/a36bcb627bba3ebd4e5a8e0cd97851fe043e7d05/logo/deno_1.svg)](https://deno.land)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 # pkce-deno
 PKCE code verifier and challenge generator for [Deno](https://github.com/denoland/deno). It requires Deno 1.0 or greater.
 
