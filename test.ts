@@ -11,15 +11,3 @@ function test(size: number, type: string) {
 
 Deno.test("Test of length", test(43, 'codeChallenge'));
 Deno.test("Test of length 2", test(128, 'codeVerifier'));
-
-Deno.test("Too short length", function (): void {
-  assertThrows(() => {
-    throw create(10);
-  }, Error);
-});
-
-Deno.test("Too long length", function (): void {
-  assertThrows(() => {
-    throw create(130);
-  }, Error);
-});
