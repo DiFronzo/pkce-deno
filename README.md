@@ -4,7 +4,7 @@ PKCE code verifier and challenge generator for Deno.
 ## Usage
 
 ```js
-import { create } from 'pkce';
+import { create } from 'https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/mod.ts';
 
 const codePair = create();
 
