@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/logo/Deno_PKCE.png?token=AHJELDSAZXBUOZYY34Q35B27CXDJO" width="255">
+</p>
+
 # pkce-deno
-PKCE code verifier and challenge generator for Deno.
+PKCE code verifier and challenge generator for [Deno](https://github.com/denoland/deno). It requires Deno 1.0 or greater.
 
 ## Usage
 
