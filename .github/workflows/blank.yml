@@ -4,7 +4,7 @@ on: [push, pull_request, release]
 
 jobs:
   test:
-    name: test hmac on ${{ matrix.os }}
+    name: test pkce on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
