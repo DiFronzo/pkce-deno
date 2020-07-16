@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/logo/Deno_PKCE.png" width="255">
 </p>
 
-[![Deno version](https://raw.githubusercontent.com/DiFronzo/pkce-deno/a36bcb627bba3ebd4e5a8e0cd97851fe043e7d05/logo/deno_1.svg)](https://deno.land)
+[![Deno version](https://raw.githubusercontent.com/DiFronzo/pkce-deno/a36bcb627bba3ebd4e5a8e0cd97851fe043e7d05/logo/deno_1.svg)](https://deno.land/x/pkce_deno)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -13,6 +13,7 @@ PKCE code verifier and challenge generator for [Deno](https://github.com/denolan
 
 ```ts
 import { create } from 'https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/mod.ts';
+// OR import { create } from 'https://deno.land/x/pkce_deno/mod.ts'
 
 const codePair = create();
 
