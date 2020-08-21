@@ -1,7 +1,6 @@
-import * as base64 from "https://denopkg.com/chiefbiiko/base64/mod.ts";
-import cstring from 'https://deno.land/x/cstring/mod.js'
-import { SHA256 } from 'https://raw.githubusercontent.com/chiefbiiko/sha256/v1.0.2/mod.ts'
-
+import * as base64 from "https://deno.land/x/base64@v0.2.1/mod.ts";
+import { cstring } from "./cstring.ts";
+import { SHA256 } from 'https://deno.land/x/sha256@v1.0.2/mod.ts'
 
 const mask: string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~";
 
