@@ -2,17 +2,20 @@
   <img src="https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/logo/Deno_PKCE.png" width="255">
 </p>
 
-[![Deno version](https://raw.githubusercontent.com/DiFronzo/pkce-deno/a36bcb627bba3ebd4e5a8e0cd97851fe043e7d05/logo/deno_1.svg)](https://deno.land/x/pkce_deno)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # pkce-deno
-PKCE code verifier and challenge generator for [Deno](https://github.com/denoland/deno). It requires Deno 1.0 or greater.
+
+PKCE code verifier and challenge generator for
+[Deno](https://github.com/denoland/deno). It requires Deno 1.0 or greater.
 
 ## 🚀 Quick Start
 
-```ts
-import { create } from 'https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/mod.ts';
-// OR import { create } from 'https://deno.land/x/pkce_deno/mod.ts'
+### Javascript
+
+```js
+import { create } from "https://deno.land/x/pkce_deno/mod.ts";
+// OR import { create } from 'https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/mod.ts';
 
 const codePair = create();
 
@@ -22,9 +25,30 @@ const codePair = create();
 // }
 ```
 
+### Typescript
+
+```ts
+import { create } from "https://deno.land/x/pkce_deno/mod.ts";
+// OR import { create } from 'https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/mod.ts';
+
+interface CodePair {
+  codeVerifier: string;
+  codeChallenge: string;
+}
+
+const codePair: CodePair = create();
+
+// {
+//   codeVerifier: 'tnsFvonDznrEvywCAryrzozCwmuAxEwDFtDzxnvzErCmumwqrAAEtrtvwCsEzBFvxFnmuvByDBqrnvwsEovtBEosBvtDEzABCDDCutEuwnFAomotrxFuolzwAsEvzBEs',
+//   codeChallenge: '4BEE-zDiqCqq89S3rTimRMYZA-oVanxBqrhQ6TnZTZc'
+// }
+```
+
 ## 🏗️ Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to
+be learn, inspire, and create. Any contributions you make are **greatly
+appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)

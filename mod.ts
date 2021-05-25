@@ -1,1 +1,1 @@
-export * from './pkce.ts';
+export * from "./src/pkce.ts";
