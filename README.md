@@ -1,13 +1,23 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DiFronzo/pkce-deno/master/logo/Deno_PKCE.png" width="255">
-</p>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# pkce-deno
-
-PKCE code verifier and challenge generator for
-[Deno](https://github.com/denoland/deno). It requires Deno 1.0 or greater.
+<div align="center">
+    <img src="./logo/Deno_PKCE.png" width="400" height="400" alt="pkce-deno illustration">
+    <h1>PKCE for Deno</h1>
+    <p>
+        <b>PKCE code verifier and challenge generator for Deno.</b>
+    </p>
+    <p>
+        <img alt="language" src="https://img.shields.io/github/languages/top/difronzo/pkce-deno" >
+        <img alt="code size" src="https://img.shields.io/github/languages/code-size/difronzo/pkce-deno">
+        <img alt="issues" src="https://img.shields.io/github/issues/difronzo/pkce-deno" >
+        <img alt="license" src="https://img.shields.io/github/license/difronzo/pkce-deno">
+        <img alt="version" src="https://img.shields.io/github/v/release/difronzo/pkce-deno">
+    </p>
+    <p>
+        <b><a href="https://deno.land/x/pkce_deno">View on deno.land</a></b>
+    </p>
+    <br>
+    <br>
+    <br>
+</div>
 
 ## 🚀 Quick Start
 
